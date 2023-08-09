@@ -1,0 +1,68 @@
+
+/* From https://coolors.co */
+
+/* CSS HEX */
+/*
+--dartmouth-green: #006230ff;
+--cal-poly-green: #005927ff;
+--castleton-green: #155E4Dff;
+--dartmouth-green-2: #005C2Cff;
+--dartmouth-green-3: #006534ff;
+*/
+
+/* CSS HEX */
+/*
+--rose-taupe: #795c5fff;
+--ecru: #a69658ff;
+--ecru-2: #b39d5eff;
+--ecru-3: #c0a464ff;
+--ecru-4: #d9b26fff;
+--jasmine: #fadf7fff;
+--vanilla: #f2e29fff;
+*/
+
+body {
+    background: #f2e29fff;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("images/jorge-franganillo-QJCJYfC1uzw-unsplash.jpg");
+    background-size: cover;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#player-area {
+    display: flex;
+    background-color: #a69658ff;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: top;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.player-bar-user {
+    font-weight: bold;
+    background-color: #fadf7fff;
+    padding: 6px 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#player-bar-header {
+    background: linear-gradient(.25turn,#fadf7fff, 15%, #b39d5eff);
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+#board {
+    width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 0 10px; 
+}
