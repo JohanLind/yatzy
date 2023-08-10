@@ -60,7 +60,7 @@ body {
 
 #board {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     margin: 100px;
     padding: 10px 0;
 }
