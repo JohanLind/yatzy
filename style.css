@@ -59,10 +59,40 @@ body {
 }
 
 #board {
-    width: 800px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: start;
+    margin: 100px;
+    padding: 10px 0;
+}
+
+.filler {
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.border-thin {
     border: 1px solid black;
-    padding: 0 10px; 
+}
+
+#pointers {
+    font-style: italic;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.odd {
+    background: #a69658ff;
+    margin: 0;
+    padding: 0;
+}
+
+.name-field {
+    height: 20px;
+    width: 60px;
+    margin: 0 5px;
+}
+
+.cell {
+    height: 20px;
 }
