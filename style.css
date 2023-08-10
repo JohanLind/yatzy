@@ -20,10 +20,18 @@
 --jasmine: #fadf7fff;
 --vanilla: #f2e29fff;
 */
-
 body {
-    background: #f2e29fff;
     margin: 0;
+    background: #b39d5eff;
+}
+
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+    background: #f2e29fff;
 }
 
 #hero {
