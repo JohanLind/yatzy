@@ -20,14 +20,18 @@
 --jasmine: #fadf7fff;
 --vanilla: #f2e29fff;
 */
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
     background: #b39d5eff;
 }
 
 
 .wrapper {
-    margin: 0;
     padding: 0;
     width: 70%;
     margin: 0 auto;
